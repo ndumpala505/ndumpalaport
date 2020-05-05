@@ -11,3 +11,92 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.heroImage {
+  background-image: url("./Images/bg2.jpg"), url("./Images/bg2.jpg"), url("./Images/bg3.jpg");
+  background-color: #cccccc;
+  height: 1000px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.layer {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+}
+
+.text-color {
+   color: #FE4066;
+}
+
+/* css library*/
+.text-center {
+    text-align: center;
+}
+
+.display-inline {
+    display: inline;
+}
+
+.display-flex {
+    display : flex;
+}
+
+.flex-column {
+    flex-direction : column;
+}
+
+.flex-center {
+    justify-content:center;
+    align-items: center;
+    height:800px
+}
+
+.flex-right {
+    justify-content: flex-end;
+}
+
+.flex-space-around {
+    justify-content: space-around;
+}
+
+.margin-horizontal-sm {
+    margin: 0 7px 0 7px;
+}
+
+.margin-horizontal-md {
+    margin: 0 14px 0 14px;
+}
+
+.margin-horizontal-lg {
+    margin: 0 21px 0 21px;
+}
+
+.margin-vertical-sm {
+    margin: 7px 0 7px 0;
+}
+
+.margin-vertical-md {
+    margin: 14px 0 14px 0;
+}
+
+.margin-vertical-lg {
+    margin: 14px 0 14px 0;
+}
+
+.text-size-sm {
+    font-size: 24px;
+}
+
+.text-size-md {
+    font-size: 36px;
+}
+
+
