@@ -13,7 +13,7 @@ code {
 }
 
 .heroImage {
-  background-image: url("./Images/bg2.jpg"), url("./Images/bg2.jpg"), url("./Images/bg3.jpg");
+  background-image: url("./Images/bg2.jpg");
   background-color: #cccccc;
   height: 1000px;
   background-position: center;
@@ -30,6 +30,14 @@ code {
     width: 100%;
     height: 100%;
     color: #ffffff;
+}
+
+.welcome {
+   height:800px;
+}
+
+.logos {
+    height:210px;
 }
 
 .text-color {
@@ -55,12 +63,14 @@ code {
 
 .flex-center {
     justify-content:center;
-    align-items: center;
-    height:800px
 }
 
 .flex-right {
     justify-content: flex-end;
+}
+
+.flex-center-align {
+    align-items: center;
 }
 
 .flex-space-around {
@@ -88,7 +98,7 @@ code {
 }
 
 .margin-vertical-lg {
-    margin: 14px 0 14px 0;
+    margin: 21px 0 21px 0;
 }
 
 .text-size-sm {
@@ -97,6 +107,10 @@ code {
 
 .text-size-md {
     font-size: 36px;
+}
+
+.font-weight-md {
+    font-weight: 500;
 }
 
 
