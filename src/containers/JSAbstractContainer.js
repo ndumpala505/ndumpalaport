@@ -1,15 +1,19 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import SubHeading  from '../components/SubHeading';
+import CheckDevice from '../Utilities/CheckDevice';
 
-const JSAbstractContainer = React.memo(() => {
+const JSAbstractContainer = React.memo(({
+    device,
+}) => {
+
     return (
         <Container>
-            <Row className="flex-center flex-column margin-vertical-lg margin-horizontal-sm">
+            <Row className="flex-center flex-column margin-vertical-sm margin-horizontal-sm">
                 <SubHeading heading="FRONT END FOCUSED" className="text-size-md text-center"/>
                 <SubHeading heading="WITH DIFFERENT JS LIBRARY EXPERIENCE" className="text-size-md text-center"/>
             </Row>
-            <Row>
+            <Row className="padding-horizontal-sm text-left">
                 <Col xs={12} md={6}>
                     <Row className="flex-column margin-vertical-lg">
                         <SubHeading heading="MOTIVATED TO PRODUCT RESULTS" className="text-size-sm font-weight-md"/>
@@ -23,15 +27,24 @@ const JSAbstractContainer = React.memo(() => {
                     </Row>
                 </Col>
                 <Col xs={12} md={6}>
-                    <Row className="flex-center flex-center-align logos">
-                         <img src={require('../Images/nodeImage.png')} alt="node js logo" height="100" width="100" />
-                         <img src={require('../Images/jquery.png')} alt="js logo" height="100" width="100" />
-                         <img src={require('../Images/react.png')} alt="react js logo" height="100" width="100" />
-                         <img src={require('../Images/angular.png')} alt="angular js logo" height="100" width="100" />
+                    <Row className="flex-center text-center flex-center-align logos">
+                        <Col xs={12} md={6}>
+                             <img src={require('../Images/nodeImage.png')} alt="node js logo" height="100" width="100" />
+                             <img src={require('../Images/jquery.png')} alt="js logo" height="100" width="100" />
+                         </Col>
+                        <Col xs={12} md={6}>
+                             <img src={require('../Images/react.png')} alt="react js logo" height="100" width="100" />
+                             <img src={require('../Images/angular.png')} alt="angular js logo" height="100" width="100" />
+                        </Col>
                     </Row>
                 </Col>
             </Row>
         </Container>
     );
 });
-export default JSAbstractContainer;
+
+JSAbstractContainer.propTypes = {
+   // accelerateContent: PropTypes.object,
+};
+
+export default CheckDevice(JSAbstractContainer);
