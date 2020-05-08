@@ -22,14 +22,71 @@ code {
 }
 
 .heroImage2 {
-  background-image: url("./Images/01.png");
+  background-image: url("./Images/02.png");
   background-size: cover;
-  /*height: 500px;*/
+  transform: skewY(-7deg);
+}
+
+.heroImage2 > * {
+  transform: skewY(7deg);
 }
 
 .welcome {
    height:460px;
    color: #ffffff;
+}
+
+.hello {
+  animation: left 1s ease-out;
+  -webkit-animation: left 1s ease-out;
+  -moz-animation: left 1s ease-out;
+}
+
+@keyframes left {
+    0% {
+        opacity:0;
+        transform: translatex(-10rem);
+    }
+    80% {
+        transform: translatex(10rem);
+    }
+    100% {
+        transform: translatex(0rem);
+    }
+}
+
+.developer {
+  animation: right 1s ease-out;
+  -webkit-animation: right 1s ease-out;
+  -moz-animation: right 1s ease-out;
+}
+
+@keyframes right {
+    0% {
+        opacity:0;
+        transform: translatex(10rem);
+    }
+    80% {
+        transform: translatex(-1rem);
+    }
+    100% {
+        transform: translatex(0rem);
+    }
+}
+
+.contactButton {
+    animation: bottom 500ms ease-out 750ms;
+    animation-fill-mode: backwards;
+}
+
+@keyframes bottom {
+    0% {
+        opacity:0;
+        transform: translatey(3rem);
+    }
+    100% {
+        transform: translatey(0rem);
+    }
 }
 
 .logos {
@@ -38,12 +95,23 @@ code {
 
 .cards {
    background-color: rgba(255, 255, 255, 0.8);
-   font-size: 1.5rem;
    padding: 2.5rem;
    text-align: center;
    border-radius: .3rem;
    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
    transition: transform 300ms;
+}
+
+.cards:hover {
+    transform: translateY(-1.5rem) scale(1.03);
+    box-shadow: 0 1.5rem 2rem rgba(255, 223, 0, 1);
+
+}
+
+.cardWrapper {
+   margin-right: 14px !important;
+   margin-left: 14px !important;
+   padding: 45px 0 68px 0;
 }
 
 @media screen and (min-width: 415px) {
@@ -52,8 +120,8 @@ code {
     }
 
     .heroImage2 {
-      /*height: 1000px;*/
-      padding: 20rem 0;
+      padding: 5rem 0;
+      margin-bottom: 20rem;
     }
 
     .welcome {
@@ -68,6 +136,14 @@ code {
 /* css library*/
 .text-center {
     text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
 }
 
 .display-inline {
@@ -122,6 +198,10 @@ code {
     margin: 21px 0 21px 0;
 }
 
+.margin-vertical-xlg {
+    margin: 36px 0 36px 0;
+}
+
 .padding-horizontal-sm {
     padding: 0 7px 0 7px;
 }
@@ -144,6 +224,18 @@ code {
 
 .padding-vertical-lg {
     padding: 21px 0 21px 0;
+}
+
+.padding-vertical-xlg {
+    padding: 36px 0 36px 0;
+}
+
+.padding-collapse-right {
+    padding-right: 0 !important;
+}
+
+.padding-collapse-left {
+    padding-left: 0 !important;
 }
 
 .text-size-sm {

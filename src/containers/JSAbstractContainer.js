@@ -28,14 +28,10 @@ const JSAbstractContainer = React.memo(({
                 </Col>
                 <Col xs={12} md={6}>
                     <Row className="flex-center text-center flex-center-align logos">
-                        <Col xs={12} md={6}>
-                             <img src={require('../Images/nodeImage.png')} alt="node js logo" height="100" width="100" />
-                             <img src={require('../Images/jquery.png')} alt="js logo" height="100" width="100" />
-                         </Col>
-                        <Col xs={12} md={6}>
-                             <img src={require('../Images/react.png')} alt="react js logo" height="100" width="100" />
-                             <img src={require('../Images/angular.png')} alt="angular js logo" height="100" width="100" />
-                        </Col>
+                        <img src={require('../Images/nodeImage.png')} alt="node js logo" height="100" width="100" />
+                        <img src={require('../Images/jquery.png')} alt="js logo" height="100" width="100" />
+                        <img src={require('../Images/react.png')} alt="react js logo" height="100" width="100" />
+                        <img src={require('../Images/angular.png')} alt="angular js logo" height="115" width="115" />
                     </Row>
                 </Col>
             </Row>

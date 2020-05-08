@@ -15,9 +15,9 @@ const HeroContainer = React.memo(() => {
                     <img src={require('../Images/nsymbol.png')} alt="logo" height="60" width="60" />
                 </Row>
                 <Row className="welcome flex-column text-size-md flex-center flex-center-align text-center">
-                    <div>Hello, I&#x27;m <span className="text-color">Nithesh Dumpala.</span></div>
-                    <div>I&#x27;m a Front-end developer </div>
-                    <div className="margin-vertical-sm">
+                    <div className="hello">Hello, I&#x27;m <span className="text-color">Nithesh Dumpala.</span></div>
+                    <div className="developer">I&#x27;m a Front-end developer </div>
+                    <div className="margin-vertical-sm contactButton">
                         <Button href="/contact" variant="primary" size="lg">Contact me</Button>
                     </div>
                 </Row>
