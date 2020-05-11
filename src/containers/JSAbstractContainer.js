@@ -1,7 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import SubHeading  from '../components/SubHeading';
-import CheckDevice from '../Utilities/CheckDevice';
 
 const JSAbstractContainer = React.memo(({
     device,
@@ -29,7 +28,7 @@ const JSAbstractContainer = React.memo(({
                 <Col xs={12} md={6}>
                     <Row className="flex-center text-center flex-center-align logos">
                         <img src={require('../Images/nodeImage.png')} alt="node js logo" height="100" width="100" />
-                        <img src={require('../Images/jquery.png')} alt="js logo" height="100" width="100" />
+                        <img src={require('../Images/jquery.png')} alt="jquery logo" height="100" width="100" />
                         <img src={require('../Images/react.png')} alt="react js logo" height="100" width="100" />
                         <img src={require('../Images/angular.png')} alt="angular js logo" height="115" width="115" />
                     </Row>
@@ -39,8 +38,4 @@ const JSAbstractContainer = React.memo(({
     );
 });
 
-JSAbstractContainer.propTypes = {
-   // accelerateContent: PropTypes.object,
-};
-
-export default CheckDevice(JSAbstractContainer);
+export default JSAbstractContainer;

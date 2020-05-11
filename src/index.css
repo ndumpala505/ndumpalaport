@@ -7,6 +7,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 @media (max-width: 56.25em)
 html {
     font-size: 50%;
@@ -98,9 +102,8 @@ code {
         transform: translatey(0rem);
     }
 }
-
-.logos {
-   height:210px;
+.logo {
+    color: linear-gradient(to right bottom, #ffb900, #ff7730);
 }
 
 .cards {
@@ -266,6 +269,11 @@ code {
     border-bottom: 1px solid #eee;
 }
 
+.socialIcons:hover {
+    transform: translateY(-0.2rem) scale(1.03);
+    box-shadow: 0 1.5rem 2rem rgba(255, 223, 0, 1);
+}
+
 /* css library*/
 
 .color-white {
@@ -346,6 +354,14 @@ code {
 
 .margin-vertical-xlg {
     margin: 36px 0 36px 0;
+}
+
+.margin-collapse-left {
+    margin-left: 0 !important;
+}
+
+.margin-collapse-right {
+    margin-right: 0 !important;
 }
 
 .padding-horizontal-sm {

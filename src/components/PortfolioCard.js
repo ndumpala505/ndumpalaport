@@ -45,7 +45,7 @@ const portfolioCard = React.memo(({
                         {cardBackText}
                      </div>
                      <div>
-                        <Button href={linkURL} variant="light" size="lg">Let's see</Button>
+                        <Button href="/" rel="nofollow noopener noreferrer" variant="light" size="lg">Let's see</Button>
                      </div>
                 </div>
             </div>
