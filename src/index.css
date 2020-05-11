@@ -7,6 +7,16 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+@media (max-width: 56.25em)
+html {
+    font-size: 50%;
+}
+
+@media (max-width: 75em)
+html {
+    font-size: 56.25%;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -22,7 +32,7 @@ code {
 }
 
 .heroImage2 {
-  background-image: url("./Images/02.png");
+  background-image: linear-gradient(to right bottom, rgba(27, 27, 26, 0.8), rgba(255, 119, 48, 0.67)), url("./Images/b.png");
   background-size: cover;
   transform: skewY(-7deg);
 }
@@ -100,6 +110,7 @@ code {
    border-radius: .3rem;
    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
    transition: transform 300ms;
+   //height: 345px;
 }
 
 .cards:hover {
@@ -111,7 +122,7 @@ code {
 .cardWrapper {
    margin-right: 14px !important;
    margin-left: 14px !important;
-   padding: 45px 0 68px 0;
+   padding: 120px 0 120px 0;
 }
 
 @media screen and (min-width: 415px) {
@@ -120,7 +131,6 @@ code {
     }
 
     .heroImage2 {
-      padding: 5rem 0;
       margin-bottom: 20rem;
     }
 
@@ -135,7 +145,7 @@ code {
 
 
 .project {
-    height: 52rem;
+    height: 42rem;
     perspective: 150rem;
     -moz-perspective: 150rem;
     position: relative;
@@ -161,8 +171,16 @@ code {
     transform: rotateY(180deg);
 }
 
-.cardbackFill {
+.cardBackFill_1 {
     background-image: linear-gradient(to right bottom, #ffb900, #ff7730);
+}
+
+.cardBackFill_2 {
+    background-image: linear-gradient(to right bottom, #2998ff, #5643fa);
+}
+
+.cardBackFill_3 {
+    background-image: linear-gradient(to right bottom, #7ed56f, #28b485);
 }
 
 .cardCTA {
@@ -177,6 +195,7 @@ code {
     color: #fff;
     margin-bottom: 1rem;
     padding: 1rem;
+    font-size: 1rem;
 }
 .project:hover .cardFront {
     transform: rotateY(-180deg);
@@ -194,7 +213,15 @@ code {
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
 }
 .cardFrontImage1 {
-    background-image: linear-gradient(to right bottom, #ffb900, #ff7730), url("./Images/bg3.jpg");
+    background: linear-gradient(to right bottom, rgb(241, 39, 17), rgb(245, 175, 25)), url("./Images/bg3.jpg");
+}
+
+.cardFrontImage2 {
+    background: linear-gradient(to right bottom, rgb(55, 59, 68), rgb(66, 134, 244)), url("./Images/bg3.jpg");
+}
+
+.cardFrontImage3 {
+    background: linear-gradient(to right bottom, rgb(106, 145, 19), rgb(20, 21, 23)),  url("./Images/bg3.jpg");
 }
 
 .cardHeading {
@@ -231,7 +258,7 @@ code {
 
 .cardDetails ul li {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     padding: 0.2rem;
 }
 
@@ -240,6 +267,15 @@ code {
 }
 
 /* css library*/
+
+.color-white {
+    color: white;
+}
+.bgBlack {
+    background-color: #000000;
+    opacity: 0.8;
+}
+
 .text-center {
     text-align: center;
 }
@@ -278,6 +314,10 @@ code {
 
 .flex-space-around {
     justify-content: space-around;
+}
+
+.flex-space-between {
+    justify-content: space-between;
 }
 
 .margin-horizontal-sm {
@@ -336,6 +376,10 @@ code {
     padding: 36px 0 36px 0;
 }
 
+.padding-horizontal-xlg {
+    padding: 0 36px 0 36px;
+}
+
 .padding-collapse-right {
     padding-right: 0 !important;
 }
@@ -350,10 +394,18 @@ code {
 
 .text-size-md {
     font-size: calc(1rem + 1vw);;
-}1
+}
+
+.text-size-lg {
+    font-size: calc(1rem + 2vw);
+}
 
 .font-weight-md {
     font-weight: 500;
+}
+
+.text-underline {
+    text-decoration: underline;
 }
 
 

@@ -2,7 +2,8 @@ import React from 'react';
 import HeroContainer  from '../containers/HeroContainer';
 import JSAbstractContainer  from '../containers/JSAbstractContainer';
 import ProjectsContainer  from '../containers/ProjectsContainer';
-import ProjectPortfolio  from '../containers/ProjectPortfolio';
+import ProjectPortfolioContainer  from '../containers/ProjectPortfolioContainer';
+import ContactDetailsContainer  from '../containers/ContactDetailsContainer';
 
 class Home extends React.Component {
   render() {
@@ -11,7 +12,8 @@ class Home extends React.Component {
         <HeroContainer />
         <JSAbstractContainer />
         <ProjectsContainer />
-        <ProjectPortfolio />
+        <ProjectPortfolioContainer />
+        <ContactDetailsContainer />
       </div>
     )
   }
