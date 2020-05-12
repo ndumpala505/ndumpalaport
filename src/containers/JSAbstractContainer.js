@@ -29,12 +29,12 @@ const JSAbstractContainer = React.memo(({
                         and always stay attuned to the newest frameworks.</div>
                     </Row>
                 </Col>
-                <Col xs={12} md={6}>
-                    <Row className="flex-center text-center flex-center-align logos">
-                        <img src={nodeImage} alt="node js logo" height="100" width="100" />
-                        <img src={jquery} alt="jquery logo" height="100" width="100" />
-                        <img src={react} alt="react js logo" height="100" width="100" />
-                        <img src={angular} alt="angular js logo" height="115" width="115" />
+                <Col xs={12} md={6} className="display-flex flex-center-align flex-center">
+                    <Row className="text-center flex-center logos">
+                        <img className="abstractLogo" src={nodeImage} alt="node js logo" height="100" width="100" />
+                        <img className="abstractLogo" src={jquery} alt="jquery logo" height="100" width="100" />
+                        <img className="abstractLogo" src={react} alt="react js logo" height="100" width="100" />
+                        <img className="abstractLogo" src={angular} alt="angular js logo" height="100" width="100" />
                     </Row>
                 </Col>
             </Row>

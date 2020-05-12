@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Button } from 'react-bootstrap';
-
+import logo from '../Images/logo.png';
 
 const HeroContainer = React.memo(() => {
 
@@ -12,13 +12,13 @@ const HeroContainer = React.memo(() => {
         <div className="heroImage">
             <Container fluid>
                 <Row className="text-size-sm flex-left">
-                    <img src={require('../Images/logo.png')} alt="logo" height="100" width="100" />
+                    <img src={logo} alt="logo" height="100" width="100" />
                 </Row>
                 <Row className="welcome flex-column text-size-md flex-center flex-center-align text-center">
                     <div className="hello">Hello, I&#x27;m <span className="text-color">Nithesh Dumpala.</span></div>
                     <div className="developer">I&#x27;m a Front-end developer </div>
                     <div className="margin-vertical-sm contactButton">
-                        <Button href="#contact" rel="nofollow noopener noreferrer" variant="primary" size="lg">Contact me</Button>
+                        <Button href="#contact" rel="nofollow noopener noreferrer" variant="warning" size="lg">Contact me</Button>
                     </div>
                 </Row>
             </Container>

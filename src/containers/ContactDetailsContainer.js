@@ -40,8 +40,8 @@ const ContactDetailsContainer = React.memo(() => {
                     href={data.url}
                     rel="nofollow noopener noreferrer"
                     target="_blank"  key={index}
-                    className="socialIcons margin-horizontal-sm padding-horizontal-sm">
-                        <img src={data.logo} alt="" height="50" width="50" />
+                    className="margin-horizontal-md margin-collapse-right">
+                        <img className="socialIcons" src={data.logo} alt="" height="50" width="50" />
                     </a>
                 </div>
             );

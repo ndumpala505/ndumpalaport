@@ -106,6 +106,10 @@ code {
     color: linear-gradient(to right bottom, #ffb900, #ff7730);
 }
 
+.abstractLogo:hover {
+    transform: scale(1.12);
+}
+
 .cards {
    background-color: rgba(255, 255, 255, 0.8);
    padding: 2.5rem;
@@ -125,7 +129,7 @@ code {
 .cardWrapper {
    margin-right: 14px !important;
    margin-left: 14px !important;
-   padding: 120px 0 120px 0;
+   padding: 150px 0 150px 0;
 }
 
 @media screen and (min-width: 415px) {
@@ -143,9 +147,8 @@ code {
 }
 
 .text-color {
-   color: #FE4066;
+   color: #ffc107;
 }
-
 
 .project {
     height: 42rem;
@@ -224,7 +227,7 @@ code {
 }
 
 .cardFrontImage3 {
-    background: linear-gradient(to right bottom, rgb(106, 145, 19), rgb(20, 21, 23)),  url("./Images/bg3.jpg");
+    background: linear-gradient(to right bottom, rgb(20, 21, 23), rgb(106, 145, 19)),  url("./Images/bg3.jpg");
 }
 
 .cardHeading {
@@ -235,7 +238,7 @@ code {
     color: #fff;
     position: absolute;
     top: 12rem;
-    right: 2rem;
+    right: 1.9rem;
     width: 75%;
     z-index: 1;
     line-height: 3.5rem;
@@ -271,7 +274,6 @@ code {
 
 .socialIcons:hover {
     transform: translateY(-0.2rem) scale(1.03);
-    box-shadow: 0 1.5rem 2rem rgba(255, 223, 0, 1);
 }
 
 /* css library*/
