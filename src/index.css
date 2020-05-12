@@ -93,6 +93,10 @@ code {
     animation-fill-mode: backwards;
 }
 
+.contactButton:hover {
+    transform: scale(1.12);
+}
+
 @keyframes bottom {
     0% {
         opacity:0;
