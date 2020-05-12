@@ -27,7 +27,6 @@ code {
 }
 
 .heroImage {
-  background-image: url("./Images/bg1.png");
   height: 700px;
   background-position: center;
   background-repeat: no-repeat;

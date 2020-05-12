@@ -47,7 +47,7 @@ const ContactDetailsContainer = React.memo(() => {
         });
 
         return (
-            <Row className="margin-vertical-sm padding-horizontal-md">
+            <Row className="margin-vertical-sm">
                 {icons}
             </Row>
         );
