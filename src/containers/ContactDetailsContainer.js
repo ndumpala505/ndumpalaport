@@ -1,26 +1,30 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
+import fb from '../Images/fb.png';
+import insta from '../Images/insta.png';
+import twitter from '../Images/twitter.png';
+import linkedin from '../Images/linkedin.png';
 
 const ContactDetailsContainer = React.memo(() => {
 
     const socialIcons = [
         {
-            logo: require('../Images/fb.png'),
+            logo: fb,
             alt: 'FB logo',
             url: 'https://www.facebook.com/public/Nithesh.505'
         },
         {
-            logo: require('../Images/insta.png'),
+            logo: insta,
             alt: 'Insta logo',
             url: 'https://www.instagram.com/ndumpala/'
         },
         {
-            logo: require('../Images/twitter.png'),
+            logo: twitter,
             alt: 'Twitter logo',
             url: 'https://twitter.com/NITHESHDUMPALA'
         },
         {
-            logo: require('../Images/linkedin.png'),
+            logo: linkedin,
             alt: 'Linkedin logo',
             url: 'https://www.linkedin.com/in/nithesh-dumpala-b881b8bb/'
         }

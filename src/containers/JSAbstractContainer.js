@@ -1,6 +1,10 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import SubHeading  from '../components/SubHeading';
+import nodeImage from '../Images/nodeImage.png';
+import jquery from '../Images/jquery.png';
+import react from '../Images/react.png';
+import angular from '../Images/angular.png';
 
 const JSAbstractContainer = React.memo(({
     device,
@@ -27,10 +31,10 @@ const JSAbstractContainer = React.memo(({
                 </Col>
                 <Col xs={12} md={6}>
                     <Row className="flex-center text-center flex-center-align logos">
-                        <img src={require('../Images/nodeImage.png')} alt="node js logo" height="100" width="100" />
-                        <img src={require('../Images/jquery.png')} alt="jquery logo" height="100" width="100" />
-                        <img src={require('../Images/react.png')} alt="react js logo" height="100" width="100" />
-                        <img src={require('../Images/angular.png')} alt="angular js logo" height="115" width="115" />
+                        <img src={nodeImage} alt="node js logo" height="100" width="100" />
+                        <img src={jquery} alt="jquery logo" height="100" width="100" />
+                        <img src={react} alt="react js logo" height="100" width="100" />
+                        <img src={angular} alt="angular js logo" height="115" width="115" />
                     </Row>
                 </Col>
             </Row>

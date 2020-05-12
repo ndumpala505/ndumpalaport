@@ -36,7 +36,7 @@ code {
 }
 
 .heroImage2 {
-  background-image: linear-gradient(to right bottom, rgba(27, 27, 26, 0.8), rgba(255, 119, 48, 0.67)), url("./Images/b.png");
+  background-image: url("./Images/b.png");
   background-size: cover;
   transform: skewY(-7deg);
 }
