@@ -1,12 +1,8 @@
 import React from 'react';
 import { Container, Row, Button } from 'react-bootstrap';
-import logo from '../Images/logo.png';
+import logo from '../Images/logo_128.png';
 
 const HeroContainer = React.memo(() => {
-
-//    <Button className="margin-horizontal-sm" href="/" variant="primary" size="lg">Home</Button>
-//    <Button className="margin-horizontal-sm" href="/about" variant="primary" size="lg">About</Button>
-//    <Button className="margin-horizontal-sm" href="/contact" variant="primary" size="lg">Contact</Button>
 
     return (
         <div className="heroImage">

@@ -39,16 +39,15 @@ const ContactDetailsContainer = React.memo(() => {
                     <a
                     href={data.url}
                     rel="nofollow noopener noreferrer"
-                    target="_blank"  key={index}
-                    className="margin-horizontal-md margin-collapse-right">
-                        <img className="socialIcons" src={data.logo} alt="" height="50" width="50" />
+                    target="_blank"  key={index}>
+                        <img className="socialIcons" src={data.logo} alt="" height="50" width="50" className="margin-horizontal-md margin-collapse-left"/>
                     </a>
                 </div>
             );
         });
 
         return (
-            <Row className="margin-vertical-sm">
+            <Row className="margin-vertical-sm padding-horizontal-md">
                 {icons}
             </Row>
         );

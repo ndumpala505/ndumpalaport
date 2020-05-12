@@ -27,7 +27,7 @@ code {
 }
 
 .heroImage {
-  background-image: url("./Images/02.png");
+  background-image: url("./Images/bg1.png");
   height: 700px;
   background-position: center;
   background-repeat: no-repeat;
@@ -36,7 +36,7 @@ code {
 }
 
 .heroImage2 {
-  background-image: url("./Images/b.png");
+  background-image: url("./Images/bg2.png");
   background-size: cover;
   transform: skewY(-7deg);
 }
