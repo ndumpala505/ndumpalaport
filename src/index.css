@@ -35,7 +35,7 @@ code {
 }
 
 .heroImage2 {
-  background-image: url("./Images/bg2.png");
+  background-image: url("./Images/02.jpg");
   background-size: cover;
   transform: skewY(-7deg);
 }

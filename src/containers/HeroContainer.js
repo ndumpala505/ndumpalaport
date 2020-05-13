@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Button } from 'react-bootstrap';
 import logo from '../Images/logo_128.png';
-import bg1 from '../Images/bg1.png';
+import bg1 from '../Images/01.jpg';
 
 const HeroContainer = React.memo(() => {
 
