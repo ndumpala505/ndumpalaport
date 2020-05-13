@@ -33,7 +33,7 @@ code {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  clip-path: polygon(0 0, 100% 0, 100% 79vh, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 }
 
 .heroImage2 {
@@ -236,7 +236,7 @@ code {
 }
 
 .cardHeading {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 300;
     text-transform: uppercase;
     text-align: right;
@@ -248,6 +248,28 @@ code {
     z-index: 1;
     line-height: 3.5rem;
 }
+
+.cardDetails {
+    padding: 3rem 0.5rem 3rem 0.5rem;
+}
+
+
+@media (min-width: 361px)  {
+
+    .cardHeading {
+            font-size: 2rem;
+    }
+
+    .cardDetails {
+        padding: 3rem;
+    }
+
+    .cardDetails ul li {
+        font-size: 1.4rem;
+    }
+}
+
+
 .cardHeading_span {
     padding: 1rem 1.5rem;
     -webkit-box-decoration-break: clone;
@@ -258,10 +280,6 @@ code {
     background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.85), rgba(255, 119, 48, 0.85));
 }
 
-.cardDetails {
-    padding: 3rem;
-}
-
 .cardDetails ul{
     list-style: none;
     width: 80%;
@@ -269,7 +287,7 @@ code {
 
 .cardDetails ul li {
     text-align: center;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     padding: 0.2rem;
 }
 
