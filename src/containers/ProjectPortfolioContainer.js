@@ -32,7 +32,7 @@ const ProjectPortfolioContainer = React.memo(() => {
             <Row className="flex-center margin-vertical-sm padding-vertical-xlg margin-horizontal-sm">
                 <SubHeading heading="PROJECT PORTFOLIO" className="text-size-md text-center"/>
             </Row>
-            <div>
+            <>
                 <Row className="justify-content-md-center">
                     <Col xs={12}  xl={4}>
                         <PortfolioCard
@@ -65,7 +65,7 @@ const ProjectPortfolioContainer = React.memo(() => {
                         />
                     </Col>
                 </Row>
-            </div>
+            </>
         </Container>
     );
 });

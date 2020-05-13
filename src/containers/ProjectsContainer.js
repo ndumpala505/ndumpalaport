@@ -13,25 +13,25 @@ const ProjectsContainer = React.memo(() => {
                     <Col md={4}>
                         <div className="cards margin-horizontal-md  margin-vertical-lg">
                             <div className="margin-vertical-md"><img src={coding} alt="code icon" height="100" width="100" /></div>
-                            <div>
-                            I Enjoy Hand coding things from scratch using clean, simple and maintainable code that is easy to read
-                            </div>
+                            <>
+                            I enjoy Hand coding things from scratch using clean, simple and maintainable code that is easy to read.
+                            </>
                         </div>
                     </Col>
                     <Col md={4}>
                         <div className="cards margin-horizontal-md  margin-vertical-lg">
                             <div className="margin-vertical-md"><img src={design} alt="design icon" height="100" width="100" /></div>
-                            <div>
+                            <>
                             I focus on crafting beautifully designed websites, and as with my code. I value simple and clean design patterns.
-                            </div>
+                            </>
                         </div>
                     </Col>
                     <Col md={4}>
                         <div className="cards margin-horizontal-md  margin-vertical-lg">
                             <div className="margin-vertical-md"><img src={computer} alt="responsive design icon" height="100" width="100" /></div>
-                            <div>
+                            <>
                             I make Responsive web pages using Bootstrap and media queries.My Projects will work on any kind of devices.
-                            </div>
+                            </>
                         </div>
                     </Col>
                 </Row>
