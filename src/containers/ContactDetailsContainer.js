@@ -54,7 +54,7 @@ const ContactDetailsContainer = React.memo(() => {
     }
 
     return (
-        <Container fluid className="margin-vertical-md color-white bgBlack" id="contact">
+        <Container fluid className="color-white bgBlack" id="contact">
             <Container className="padding-vertical-xlg">
                 <Row className="padding-horizontal-sm">
                     <Col xs={12} md={6} className="margin-vertical-md">

@@ -7,8 +7,8 @@ import computer from '../Images/computer.png';
 const ProjectsContainer = React.memo(() => {
 
     return (
-        <Container fluid>
-            <div className="heroImage2 margin-vertical-xlg">
+        <Container fluid className="heroImage2">
+            <div className="margin-vertical-xlg">
                 <Row className="cardWrapper margin-vertical-lg flex-center flex-center-align">
                     <Col md={4}>
                         <div className="cards margin-horizontal-md  margin-vertical-lg">
