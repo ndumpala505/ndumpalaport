@@ -1,12 +1,11 @@
 import React from 'react';
 import { Container, Row, Button } from 'react-bootstrap';
 import logo from '../Images/logo_128.png';
-import bg1 from '../Images/01.jpg';
 
 const HeroContainer = React.memo(() => {
 
     return (
-        <div className="heroImage" style={{"background-image": "url(" + bg1 + ")"}}>
+        <div className="heroImage">
             <Container fluid>
                 <Row className="text-size-sm flex-left">
                     <img src={logo} alt="logo" height="100" width="100" />

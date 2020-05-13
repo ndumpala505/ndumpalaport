@@ -27,15 +27,17 @@ code {
 }
 
 .heroImage {
+  background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("./Images/bg1.jpg");
   height: 700px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 }
 
 .heroImage2 {
-  background-image: url("./Images/02.jpg");
+  background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("./Images/bg2.jpg");
   background-size: cover;
   transform: skewY(-7deg);
 }
