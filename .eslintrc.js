@@ -31,10 +31,7 @@ module.exports = {
       "jsx": "never",
       "json": "never",
     }],
-//    "indent": [
-//        "error",
-//        4
-//    ],
+    //"indent": ["error", "tab"],
     "quotes": [
         "error",
         "single"
