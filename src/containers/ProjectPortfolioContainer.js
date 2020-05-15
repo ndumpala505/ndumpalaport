@@ -8,12 +8,12 @@ import PortfolioCard  from '../components/PortfolioCard';
     const cardBackFill = ['cardBackFill_1', 'cardBackFill_2', 'cardBackFill_3'];
 
     const cardBackText_1 = `The online marketplace for car purchasers and sellers.The site offers listings of new and
-                            used vehicles for sale from dealers and private sellers. checkout the website link below
+                            used vehicles for sale from dealers and private sellers.Checkout the website link below
                             for more information.`;
 
-    const cardBackText_2 = `The web internal A/B Testing applications was  constructed via sets of reusable Components
-                            to implement interfaces for end user interaction. The concepts of Templating, Componentization
-                            and Composition which I built made the application more robust`;
+    const cardBackText_2 = `The web internal A/B testing applications was constructed via sets of reusable components
+                            to implement interfaces for end user interaction.The concepts of Templating, componentization
+                            and composition which I built made the application more robust`;
 
     const cardBackText_3 = `A leading international supplier of On-Demand software and E-commerce services to the insurance,
                             financial and healthcare industries, provides end-to-end solutions ranging from infrastructure exchanges,
