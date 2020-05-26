@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import SubHeading  from '../components/SubHeading';
-import PortfolioCard  from '../components/PortfolioCard';
+import SubHeading from '../components/SubHeading';
+import PortfolioCard from '../components/PortfolioCard';
 
     const imageClass = ['cardFrontImage1', 'cardFrontImage2', 'cardFrontImage3']
 

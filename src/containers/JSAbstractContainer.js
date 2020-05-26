@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import SubHeading  from '../components/SubHeading';
+import SubHeading from '../components/SubHeading';
 import nodeImage from '../Images/nodeImage.png';
 import jquery from '../Images/jquery.png';
 import react from '../Images/react.png';
