@@ -133,6 +133,13 @@
     }
 }
 
+@media screen and (min-width: 1400px) {
+    .heroImage {
+      height: 1000px;
+      clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+    }
+}
+
 .project {
     height: 42rem;
     perspective: 150rem;

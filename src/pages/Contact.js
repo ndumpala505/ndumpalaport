@@ -1,8 +1,13 @@
 import React from 'react';
+import ContactDetailsContainer from '../containers/ContactDetailsContainer';
 
 class Contact extends React.Component {
-  render() {
-    return <h1>Contact</h1>
-  }
+    render() {
+        return (
+            <>
+                <ContactDetailsContainer />
+            </>
+        )
+    }
 }
 export default Contact;
