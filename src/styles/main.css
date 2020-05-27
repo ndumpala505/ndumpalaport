@@ -1,3 +1,14 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 /* css library*/
 /* color bg color properties */
 .color-white {
@@ -160,7 +171,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  clip-path: polygon(0 0, 100% 0, 100% 87vh, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 }
 .heroImage .welcome {
   height: 460px;
@@ -256,17 +267,24 @@
 }
 
 @media screen and (min-width: 415px) {
-  .heroImage {
-    height: 1000px;
-    clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
-  }
-
   .heroImage2 {
     margin-bottom: 7rem;
   }
 
   .welcome {
     height: 620px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .heroImage {
+    height: 1000px;
+    clip-path: polygon(0 0, 100% 0, 100% 100vh, 0 100%);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .heroImage {
+    height: 1000px;
+    clip-path: polygon(0 0, 100% 0, 100% 90vh, 0 100%);
   }
 }
 .project {
@@ -390,31 +408,6 @@
 }
 .socialIcons:hover {
   transform: translateY(-0.2rem) scale(1.03);
-}
-
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-@media (max-width: 56.25em) {
-  html {
-    font-size: 50%;
-  }
-}
-@media (max-width: 75em) {
-  html {
-    font-size: 56.25%;
-  }
-}
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -5,7 +5,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: $relative;
-  clip-path: polygon(0 0, 100% 0, 100% 87vh, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
     .welcome {
      height:460px;
      color: $white;
@@ -110,17 +110,26 @@
 }
 
 @media screen and (min-width: 415px) {
-    .heroImage {
-      height: 1000px;
-      clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
-    }
-
     .heroImage2 {
       margin-bottom: 7rem;
     }
 
     .welcome {
        height: 620px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+     .heroImage {
+          height: 1000px;
+          clip-path: polygon(0 0, 100% 0, 100% 100vh, 0 100%);
+     }
+}
+
+@media screen and (min-width: 1200px) {
+    .heroImage {
+      height: 1000px;
+      clip-path: polygon(0 0, 100% 0, 100% 90vh, 0 100%);
     }
 }
 
