@@ -63,7 +63,8 @@
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js",
-    "lint": "eslint --fix src/*.js"
+    "lint": "eslint --fix src/*.js",
+    "sass": "Sass --watch src/styles/style.scss src/styles/main.css"
   },
   "eslintConfig": {
     "extends": "react-app"
