@@ -14,7 +14,7 @@ const HeroContainer = React.memo(() => {
                     <div className="hello">Hello, I&#x27;m <span className="text-color">Nithesh Dumpala.</span></div>
                     <div className="developer">I&#x27;m a Front-end developer </div>
                     <div className="margin-vertical-sm contactButton">
-                        <Button href="#contact" rel="nofollow noopener noreferrer" variant="warning" size="lg">Contact me</Button>
+                        <Button href="https://ndumpalaangular.netlify.app/" rel="nofollow noopener noreferrer" variant="warning" size="lg">Contact me</Button>
                     </div>
                 </Row>
             </Container>
